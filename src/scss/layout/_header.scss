@@ -5,7 +5,7 @@ header {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .header_content {
@@ -38,7 +38,7 @@ header {
   width: 220px;
   height: 50px;
   margin: 50px auto;
-  background: rgba(34, 175, 191, 0.7);
+  background: rgba(34, 175, 191, 0.5);
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
@@ -47,6 +47,7 @@ header {
   font-family: Oswald;
   cursor: pointer;
   font-weight: bold;
+  border-radius: 5px;
 }
 .button-scroll:hover p{
   transform: scale(1.1,1.1);
