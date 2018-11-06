@@ -12,7 +12,8 @@
 .slider {
   max-width: 600px;
   min-height: 300px;
-  margin: auto auto;
+  margin: auto;
+  position: relative;
   h3 {
     background-color: rgba(255,255,0,0.5);
     display: inline-block;
@@ -27,4 +28,5 @@
     padding: 5px;
     display: inline-block;
   }
+  
 }
