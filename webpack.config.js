@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.[hash].js',
-    publicPath: './',
+    publicPath: '',
   },
   module: {
     rules: [
@@ -84,8 +84,9 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: './css/fonts/',
+              outputPath: 'fonts/',
               name: '[name].[ext]',
+                publicPath: '../fonts/'
             },
           },
         ],
